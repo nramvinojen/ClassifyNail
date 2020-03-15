@@ -119,8 +119,13 @@ weighted avg       0.93      0.92      0.92        24
 ```
 python app.py
 ```
-- For classifying an image using vgg16 model:
-   Open "Postman" send the image in "form-data"
+-For classifying an image using vgg16 model:
+ using Curl
+ ``` 
+ curl --location --request POST "http://localhost:5000/predict"  --form  image=@C:/1522072665_good.jpeg
+ ```
+ using Postman
+ Open send the image in "form-data"
    
 ```   
  set "key" as image and add the image in "value" under the "body" tab
