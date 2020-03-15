@@ -13,7 +13,7 @@ def install(package):
     
 def main():
     install('keras==2.2.5')
-    install('tensorflow==2.0')
+    install('tensorflow==1.4')
     install('numpy')
     install('sklearn')
     install('scikit-learn')
