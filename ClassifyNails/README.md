@@ -63,7 +63,7 @@ which creates
                 └── bad
 				
 - Run the model:
-  * This will train the model and show training and validation loss and accuracy values.
+  * This will train the model and show training and validation loss and accuracy values of both the baseline model and vgg model.
 ```
 python easy_run.py train
 ```
