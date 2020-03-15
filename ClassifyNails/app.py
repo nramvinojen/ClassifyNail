@@ -18,7 +18,7 @@ import flask
 import io
 import tensorflow as tf
 
-import src.utils as ut
+import utils as ut
 import src.data.crop as cr
 
 # initialize our Flask application and the Keras model
