@@ -126,12 +126,31 @@ python app.py
  ``` 
  curl --location --request POST "http://localhost:5000/predict"  --form  image=@C:/1522072665_good.jpeg
  ```
+ the result
+ ```
+ C:\Users\Ramvinojen>curl --location --request POST "http://localhost:5000/predict"  --form  image=@C:/Users/Ramvinojen/Downloads/ClassifyNails/data/split/test/bad/1522072644_bad.jpeg
+{"predictions":[{"file_name":"1522072644_bad.jpeg","label":1,"name":"good","prob_bad":0.062155842781066895,"prob_good":0.9378441572189331}],"success":true}
+ ```
  using Postman
  Open send the image in "form-data"
-   
 ```   
  set "key" as image and add the image in "value" under the "body" tab
 ```
+ the result
+ ```
+ {
+    "predictions": [
+        {
+            "file_name": "1522072665_good.jpeg",
+            "label": 1,
+            "name": "good",
+            "prob_bad": 0.0198095440864563,
+            "prob_good": 0.9801904559135437
+        }
+    ],
+    "success": true
+}
+ ```
 
 
 
