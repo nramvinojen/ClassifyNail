@@ -12,7 +12,7 @@
 chosing the perfect hyperparametes like optimization algorithm, learning rate etc.
 Also acounting for overfitting.
 
-4What would you do, if there would be only 20 bad images and 100 good images?
+4. What would you do, if there would be only 20 bad images and 100 good images?
 oversampling one class, and undersampling the other class will help.
 Also interpreting the result metrics, such as precision, recall and f1 score
 
