@@ -17,8 +17,11 @@ The hyperparameter tuning is done manually and from emprical results.
 ### Prerequisites 
 
 The requirements.txt file contains all the necessary packages for the whole task.
-
-
+I use python 3.6
+Run the following file to install all the required packages
+```
+python install_req.py
+```
 
 ### Steps for Basic Running 
 
@@ -30,6 +33,10 @@ Train a model from scratch:
         │   ├── good
         │   └── bad
         └── split
+	    ├── train
+	    ├── validate
+	    └── test
+	
   ```
 			
 
