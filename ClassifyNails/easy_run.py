@@ -3,6 +3,9 @@
 Created on Sat Mar 14 07:59:45 2020
 
 @author: Ramvinojen
+
+this file serves as a driver to call other .py files
+this fill takes in arguments to run between "make the dataset, train, test"
 """
 
 
