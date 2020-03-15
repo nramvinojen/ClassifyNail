@@ -12,7 +12,7 @@ def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
     
 def main():
-    install('keras')
+    install('keras==2.2.5')
     install('tensorflow==2.0')
     install('numpy')
     install('sklearn')
