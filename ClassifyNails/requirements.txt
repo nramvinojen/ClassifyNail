@@ -1,0 +1,11 @@
+# local package
+-e .
+
+# external requirements
+flask==1.0.2
+keras==2.2.2
+argparse==1.1
+tensorflow==1.10.1
+opencv-python>=3.4.1
+Pillow==4.3.0
+numpy==1.14.5
