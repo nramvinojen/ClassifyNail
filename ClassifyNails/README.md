@@ -6,6 +6,7 @@ I use a Convolutional neural network model to classify industrial nail images as
 I use VGG16 pre trained network with custom layers at the top as for the classification task. 
 	I choose VGG16 beacasue I have worked on similar task like this before
 	I prefer VGG16 over many other (Resnet50), due to ints high accuracy and light weight
+
 A base line classification accuracy is establised wtih a simple CNN model. 
 
 
