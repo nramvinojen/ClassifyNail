@@ -24,13 +24,13 @@ The requirements.txt file contains all the necessary packages for the whole task
 
 Train a model from scratch:
 - Copy the nail images to /data folder in the format /data/whole.
-
+```
     └── data
         └── whole
         │   ├── good
         │   └── bad
         └── split
-  
+  ```
 			
 
 and then execute
