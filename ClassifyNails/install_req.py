@@ -12,13 +12,16 @@ def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
     
 def main():
-    install('numpy')
-    install('Pillow')
-    install('opencv-python')
     install('keras')
+    install('tensorflow==2.0')
+    install('numpy')
+    install('sklearn')
+    install('scikit-learn')
+    install('Pillow')
+    #install('opencv-python')
+    install('opencv-python-headless')
     install('argparse')   
     install('flask')
-    install('tensorflow')
 
         
 
