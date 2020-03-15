@@ -122,7 +122,7 @@ def main():
     if(augment == 0):
         augmentation = False
 
-    #train("cnn", bs, ep_cnn, lr, augmentation, width, heigth)
+    train("cnn", bs, ep_cnn, lr, augmentation, width, heigth)
     train("vgg16", bs, ep_vgg, lr, augmentation, width, heigth)
 
 
