@@ -1,12 +1,16 @@
 # Nail classification
 
+Clearly the data set is small hence using transfer learning techinque is benificial.
+I use a Convolutional neural network model to classify industrial nail images as good or bad.
 
-Convolutional neural network based model to classify manufactured nail images as good or bad (bent).
-As the data set is small, transfer learning is a highly recommended method for the task. A pretrained model is used 
-as the building block for the classification task. For this task, a pretrained vgg-16 model with a customized top 
-is implemented using keras.
-A simple CNN model is also implemented to establish a baseline. Data augmentation and hyperparameter tuning helped 
-achieve plausible results.   
+I use VGG16 pre trained network with custom layers at the top as for the classification task. 
+	I choose VGG16 beacasue I have worked on similar task like this before
+	I prefer VGG16 over many other (Resnet50), due to ints high accuracy and light weight
+A base line classification accuracy is establised wtih a simple CNN model. 
+
+
+A simple Data augmentation, cropping pipeline is setup for the model.
+The hyperparameter tuning is done manually and from emprical results.   
 
 
 ### Prerequisites 
@@ -19,11 +23,6 @@ The requirements.txt file contains all the necessary packages for the whole task
 
 Train a model from scratch:
 - Copy the nail images to /data folder in the format /data/whole.
- 
-
-For this task first copy the images into the data folder.  The tree structure starting from the root directory should look like 
-
-which creates 
 
     └── data
         └── whole
