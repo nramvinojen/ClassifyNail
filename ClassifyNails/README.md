@@ -1,7 +1,9 @@
 # Nail classification
 
-Clearly the data set is small hence using transfer learning techinque is benificial.
-I use a Convolutional neural network model to classify industrial nail images as good or bad.
+The task is to classify images of nails as good and bad(bent)
+
+The provided data set is small, hence using transfer learning techinque is benificial.
+I use a Convolutional neural network model to classify.
 
 I use VGG16 pre trained network with custom layers at the top as for the classification task. 
 	I choose VGG16 beacasue I have worked on similar task like this before
@@ -23,7 +25,7 @@ Run the following file to install all the required packages
 python install_req.py
 ```
 
-### Steps for Basic Running 
+### Steps for Running the model
 
 Train a model from scratch:
 - Copy the nail images to /data folder in the format /data/whole.
